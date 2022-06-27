@@ -1,0 +1,232 @@
+% This example is meant to be compiled with lualatex or xelatex
+% The theme itself also supports pdflatex
+\PassOptionsToPackage{unicode}{hyperref}
+\documentclass[aspectratio=1610, 9pt]{beamer}
+
+% Warning, if another latex run is needed
+% \usepackage[aux]{rerunfilecheck}
+
+% just list chapters and sections in the toc, not subsections or smaller
+\setcounter{tocdepth}{1}
+
+%------------------------------------------------------------------------------
+%------------------------------ Fonts, Unicode, Language ----------------------
+%------------------------------------------------------------------------------
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX}  % -- becomes en-dash etc.
+
+% german language
+\usepackage{polyglossia}
+\setdefaultlanguage{german}
+
+% for english abstract and english titles in the toc
+\setotherlanguages{english}
+
+% intelligent quotation marks, language and nesting sensitive
+\usepackage[autostyle]{csquotes}
+
+% microtypographical features, makes the text look nicer on the small scale
+\usepackage{microtype}
+
+%------------------------------------------------------------------------------
+%------------------------ Math Packages and settings --------------------------
+%------------------------------------------------------------------------------
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{bbold}
+
+% Enable Unicode-Math and follow the ISO-Standards for typesetting math
+\usepackage[
+  math-style=ISO,
+  bold-style=ISO,
+  sans-style=italic,
+  nabla=upright,
+  partial=upright,
+]{unicode-math}
+\setmathfont{Latin Modern Math}
+
+% nice, small fracs for the text with \sfrac{}{}
+\usepackage{xfrac}
+
+
+%------------------------------------------------------------------------------
+%---------------------------- Numbers and Units -------------------------------
+%------------------------------------------------------------------------------
+
+\usepackage[
+  locale=DE,
+  separate-uncertainty=true,
+  per-mode=symbol-or-fraction,
+]{siunitx}
+\sisetup{math-micro=\text{µ},text-micro=µ}
+% \sisetup{tophrase={{ to }}}
+%------------------------------------------------------------------------------
+%-------------------------------- tables  -------------------------------------
+%------------------------------------------------------------------------------
+
+\usepackage{booktabs}       % \toprule, \midrule, \bottomrule, etc
+
+%------------------------------------------------------------------------------
+%-------------------------------- graphics -------------------------------------
+%------------------------------------------------------------------------------
+
+\usepackage{graphicx}
+%\usepackage{rotating}
+\usepackage{grffile}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{tikz-feynman}
+\usepackage{subcaption}
+
+% allow figures to be placed in the running text by default:
+\usepackage{scrhack}
+\usepackage{float}
+\floatplacement{figure}{htbp}
+\floatplacement{table}{htbp}
+
+% keep figures and tables in the section
+\usepackage[section, below]{placeins}
+
+
+%------------------------------------------------------------------------------
+%---------------------- customize list environments ---------------------------
+%------------------------------------------------------------------------------
+
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{hepunits}
+
+\usepackage{pdfpages}
+%------------------------------------------------------------------------------
+%------------------------------ Bibliographie ---------------------------------
+%------------------------------------------------------------------------------
+
+\usepackage[
+  backend=biber,   % use modern biber backend
+  autolang=hyphen, % load hyphenation rules for if language of bibentry is not
+                   % german, has to be loaded with \setotherlanguages
+                   % in the references.bib use langid={en} for english sources
+]{biblatex}
+\addbibresource{references.bib}  % the bib file to use
+\DefineBibliographyStrings{german}{andothers = {{et\,al\adddot}}}  % replace u.a. with et al.
+
+
+% Load packages you need here
+% \usepackage{polyglossia}
+% \setmainlanguage{german}
+
+\usepackage{csquotes}
+
+
+% \usepackage{amsmath}
+% \usepackage{amssymb}
+% \usepackage{mathtools}
+
+\usepackage{hyperref}
+\usepackage{bookmark}
+
+% load the theme after all packages
+
+\usetheme[
+  showtotalframes, % show total number of frames in the footline
+]{tudo}
+
+% Put settings here, like
+\unimathsetup{
+  math-style=ISO,
+  bold-style=ISO,
+  nabla=upright,
+  partial=upright,
+  mathrm=sym,
+}
+
+% \setbeamertemplate{itemize item}{\scriptsize$\blacktriangleright$}
+% \setbeamertemplate{itemize subitem}{\scriptsize$\blacktriangleright$}
+
+%Titel:
+\title{Gamma-Spectroscopy}
+%Autor
+\author[N.Breer]{Nils Breer}
+%Lehrstuhl/Fakultät
+\institute{Fakultät Physik}
+%Titelgrafik muss ich einfueren!!!
+%\titlegraphic{\includegraphics[width=0.3\textwidth]{content/Bilder/interferenz.jpg}}
+\date{12.07.2022}
+
+\begin{document}
+\maketitle
+
+\begin{frame}\frametitle{Agenda}
+  \begin{itemize}
+    \item What is gamma spectroscopy?
+    \item Theory: gamma rays
+    \item detectorsystems
+    \item Why do we need them? (Applications)
+    \item Summary
+  \end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{What is gamma spectroscopy?}
+  \begin{itemize}
+    \item a
+  \end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{frame}
+  \begin{columns}
+    b
+    % \begin{column}[c]{0.48\textwidth}
+    %   \includegraphics[width=\textwidth]{plots/.png}
+    % \end{column}
+    \begin{column}[c]{0.48\textwidth}
+      \textbf{c}
+      \begin{itemize}
+        \item d
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{frame}
+  e
+  % \includegraphics[width=0.9\textwidth]{plots/.png}
+\end{frame}
+
+\begin{frame}\frametitle{Summary}
+  \begin{itemize}
+    \item f
+  \end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Quellen}
+% \url{http://www.telescopearray.org/index.php/about/telescope-array} \\
+% \url{https://www.researchgate.net/figure/A-schematic-of-the-Pierre-Auger-Observatory-where-each-black-dot-is-a-water-Cherenkov_fig1_319524774} \\
+% \url{https://www.cta-observatory.org/pevatrons-hunt-for-galactic-cosmic-rays/} \\
+% \url{https://arxiv.org/pdf/2105.06148.pdf} \\
+% \url{https://doi.org/10.1007/978-3-319-63411-1_1} \\
+% \url{https://www.sciencedirect.com/science/article/pii/S0927650512000382} \\
+% \url{https://cerncourier.com/a/lhcbs-momentous-metamorphosis/} \\
+% \url{https://arxiv.org/pdf/1412.5106.pdf} \\
+% \url{https://www.epj-conferences.org/articles/epjconf/pdf/2019/14/epjconf_ricap2019_01015.pdf} \\
+% \url{https://pos.sissa.it/358/890/pdf} \\
+\end{frame}
+
+\end{document}
+
+% \begin{frame}\frametitle{}
+%   \begin{columns}
+%   \begin{column}[c]{0.45\textwidth}
+%     \begin{itemize}
+%       \item
+%       \item
+%       \item
+%       \item
+%     \end{itemize}
+%   \end{column}
+%   \begin{column}[c]{0.45\textwidth}
+%     % \includegraphics{images/icecube.png}
+%   \end{column}
+%   \end{columns}
+% \end{frame}
