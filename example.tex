@@ -161,37 +161,164 @@
 \begin{frame}\frametitle{Agenda}
   \begin{itemize}
     \item What is gamma spectroscopy?
-    \item Theory: gamma rays
-    \item detectorsystems
-    \item Why do we need them? (Applications)
+    \item Interactions in the Spectrum
+    \item Detectorsystems
+    \item Applications
     \item Summary
   \end{itemize}
 \end{frame}
 
 \begin{frame}\frametitle{What is gamma spectroscopy?}
   \begin{itemize}
-    \item a
+    \item studies of energy spectra of gamma rays
+    \item identification of gamma emitting radionuclides
+    % \item TL:DR : photons enter matter and interact with free or bound electrons, nuclides or fields
+    % \item interaction processes: $E_\gamma$, Z from absorber
   \end{itemize}
 \end{frame}
 
-\begin{frame}\frametitle{frame}
+\begin{frame}\frametitle{Interactions}
+  \begin{itemize}
+    \item Photoeffect
+    \item Comptoneffect
+    \item Pair production
+  \end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Photoeffect}
+  \begin{itemize}
+    \item photon interacts with huellen electrons
+    \item $\gamma + atom \to atom^{+} + e^{-}$
+    \item hole is filled with electrons from higher orbitals recursively
+    \item energy difference are characteristic and photons are released as x-rays
+    \item rarely: photon leaves absorber. often excite more electrons inside
+    \item K-L-M-absorption edge: Quantumenergy enough to release bound electron from given state
+  \end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Compton scattering}
   \begin{columns}
-    b
-    % \begin{column}[c]{0.48\textwidth}
-    %   \includegraphics[width=\textwidth]{plots/.png}
-    % \end{column}
     \begin{column}[c]{0.48\textwidth}
-      \textbf{c}
+      \includegraphics[width=\textwidth]{plots/compton.png}
+    \end{column}
+    \begin{column}[c]{0.48\textwidth}
       \begin{itemize}
-        \item d
+        \item inelastic scattering
+        \item photons only transfers a fraction of its energy
+        \item bad! cannot view full spectrum
       \end{itemize}
     \end{column}
   \end{columns}
 \end{frame}
 
-\begin{frame}{frame}
-  e
-  % \includegraphics[width=0.9\textwidth]{plots/.png}
+\begin{frame}\frametitle{Compton scattering}
+  \begin{columns}
+    \begin{column}[c]{0.48\textwidth}
+      \includegraphics[width=\textwidth]{plots/compton_kante.png}
+    \end{column}
+    \begin{column}[c]{0.48\textwidth}
+      \begin{itemize}
+        \item non-isotropic angular distribution
+        \item keV: thomson'sche scatter cross section: $\sigma_{th} = \frac{8}{3}\pi r_e^2$
+        \item $\frac{\symup{d}\sigma}{\symup{d}E} = \frac{3}{8}\sigma_{th}\frac{1}{m_0 c^2 \epsilon^2}
+        (2 + (\frac{E}{h\nu - E})^2(\frac{1}{\epsilon^2} + \frac{h\nu - E}{h\nu}-\frac{2}{\epsilon}(\frac{h\nu - E}{h\nu})))$
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Pair production}
+  \begin{columns}
+    \begin{column}[c]{0.48\textwidth}
+      \includegraphics[width=\textwidth]{plots/pair_triplett.png}
+    \end{column}
+    \begin{column}[c]{0.48\textwidth}
+      \begin{itemize}
+        \item photon produces e+e- pair if E is high enough
+        \item can only occur in proximity of nucleus/scattering partner
+        \item in restframe photon mass = 0, lepton mass > 0; someone needs to take the momentum
+        \item photon line visible if both leptons are absorbed; different lines if leptons escape (BREMSSTRAHLUNG)
+        \item annihilation peak : 511 keV (e- mass) or doubled for both
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Germanium detector}
+  \begin{columns}
+    \begin{column}[c]{0.48\textwidth}
+      \includegraphics[width=\textwidth]{plots/ge.png}
+    \end{column}
+    \begin{column}[c]{0.48\textwidth}
+      % \textbf{c}
+      \begin{itemize}
+        \item germanium semiconductor
+        \item solid detection material for full energy deposition inside
+        \item gas: only partial deposition
+        \item electrical properties needed for electron-hole pairs to electric signal!
+        \item also possible: scintillators -> trap photons and use SiPMs
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Band structure}
+  \begin{itemize}
+    \item electrons in discrete/precise energy bands with fixed number of e-
+    \item valence band: outer band for chemical reactions; most inhibited
+    \item electrons must move between bands to migrate the material
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Semi conductor}
+  \begin{itemize}
+    \item small band gap between valence band and conduction band (1 eV)
+    \item few e- in conduction band -> limited conductivity
+    \item migration proportional to Temparture T
+    \item $p(T) = T^{3/2} \times exp(-E_g / 2 k_b T)$
+  \end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{How to semiconductor}
+  \begin{itemize}
+    \item p and n doped areas
+    \item charge carriers diffuse and recombinate
+    \item surface is charge carrier poor zone
+    \item  acceptor in p, donator in n _. electric field hinders carriers
+    \item the bigger the zone the better the seperation -> more $U_g$
+    \item seperation before recombination -> pulse -> quatification of energy
+    \item only possible if generated in depletion zone (charge carrier poor zone)
+    \item depletion zone big -> reverse voltage and doping material
+    \item asymmetric doping (equation)
+    \item noise: electrons randomly passing reverse voltage, also cool detector
+    \item veto region with alu case ($E_{min} = 40 - 50 keV$)
+    \item Li in Ge for n, Au in Ge for p
+  \end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{why is gamma spectroscopy better than radio chemistry?}
+  \begin{columns}
+    \begin{column}[c]{0.48\textwidth}
+      PRO:
+      \begin{itemize}
+        \item less expensive
+        \item fast
+        \item multinuclide analysis (distinct lines visible for all nuclides)
+        \item non-destructive for emitter (radiation hardness of detector given)
+        \item remote measurement
+      \end{itemize}
+    \end{column}
+    \begin{column}[c]{0.48\textwidth}
+      CONTRA:
+      \begin{itemize}
+        \item often less sensitive
+        \item require large sample masses (if not gamma rays from space)
+      \end{itemize}
+    \end{column}
+\end{frame}
+
+\begin{frame}\frametitle{Table of interesting radio nuclides}
+  \includegraphics[width=\textwidth]{plots/nuclid_table1.png}
 \end{frame}
 
 \begin{frame}\frametitle{Summary}
