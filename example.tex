@@ -89,6 +89,8 @@
 % keep figures and tables in the section
 \usepackage[section, below]{placeins}
 
+% smileys
+\usepackage{MnSymbol,wasysym}
 
 %------------------------------------------------------------------------------
 %---------------------- customize list environments ---------------------------
@@ -170,42 +172,67 @@
 
 \begin{frame}\frametitle{What is gamma spectroscopy?}
   \begin{itemize}
-    \item studies of energy spectra of gamma rays
-    \item identification of gamma emitting radionuclides
-    % \item TL:DR : photons enter matter and interact with free or bound electrons, nuclides or fields
-    % \item interaction processes: $E_\gamma$, Z from absorber
+    \item \textbf{studies of energy spectra of gamma rays}
+    \item identification of gamma-emitting radionuclides
+    \item Interactions: Photoeffect, Compton scattering, Pair production
   \end{itemize}
 \end{frame}
 
-\begin{frame}\frametitle{Interactions}
-  \begin{itemize}
-    \item Photoeffect
-    \item Comptoneffect
-    \item Pair production
-  \end{itemize}
+\begin{frame}\frametitle{WInteraction of $\gamma$-rays with matter}
+  \begin{columns}
+    \begin{column}[c]{0.48\textwidth}
+      \begin{figure}
+        \includegraphics[width=\textwidth]{plots/z_depend.png}
+        \caption{atomic number Z against photon energy E.}
+      \end{figure}
+    \end{column}
+    \begin{column}[c]{0.48\textwidth}
+      \begin{itemize}
+        \item processes above ionization threshold
+        \item Gamma ray absorption \to intensity loss
+        \item Material thickness dependend intensity: $N(D) = N_0 e^{-\mu D}$
+        \item D: thickness, $\mu$: absoption coefficient, $N_0$: initial intensity
+      \end{itemize}
+    \end{column}
+  \end{columns}
 \end{frame}
 
 \begin{frame}\frametitle{Photoeffect}
-  \begin{itemize}
-    \item photon interacts with huellen electrons
-    \item $\gamma + atom \to atom^{+} + e^{-}$
-    \item hole is filled with electrons from higher orbitals recursively
-    \item energy difference are characteristic and photons are released as x-rays
-    \item rarely: photon leaves absorber. often excite more electrons inside
-    \item K-L-M-absorption edge: Quantumenergy enough to release bound electron from given state
-  \end{itemize}
+  \begin{columns}
+    \begin{column}[c]{0.48\textwidth}
+      \begin{figure}
+        \includegraphics[width=\textwidth]{plots/photo_abs.png}
+        \caption{photo peak}
+      \end{figure}
+    \end{column}
+    \begin{column}[c]{0.48\textwidth}
+      \begin{itemize}
+        \item $E_\gamma < $ several 100 keV
+        \item ionizing bound electron (K-shell)
+        \item $\gamma + atom \to atom^{+} + e^{-}$
+        \item hole is filled with electrons from higher shells recursively
+        \item energy diff. release as x-rays characteristic
+        \item rarely: photon leaves absorber. often excite more electrons inside
+        \item K-L-M-absorption edge: Quantumenergy enough to release bound electron from given shell
+      \end{itemize}
+    \end{column}
+  \end{columns}
 \end{frame}
 
 \begin{frame}\frametitle{Compton scattering}
   \begin{columns}
     \begin{column}[c]{0.48\textwidth}
-      \includegraphics[width=\textwidth]{plots/compton.png}
+      \begin{figure}
+        \includegraphics[width=\textwidth]{plots/compton.png}
+        \caption{compton continuum}
+      \end{figure}
     \end{column}
     \begin{column}[c]{0.48\textwidth}
       \begin{itemize}
+        \item main interaction (100 keV < E < 5 MeV)
         \item inelastic scattering
-        \item photons only transfers a fraction of its energy
-        \item bad! cannot view full spectrum
+        \item photons only transfers an energy fraction
+        \item cannot view full spectrum \frownie{}
       \end{itemize}
     \end{column}
   \end{columns}
@@ -219,9 +246,9 @@
     \begin{column}[c]{0.48\textwidth}
       \begin{itemize}
         \item non-isotropic angular distribution
-        \item keV: thomson'sche scatter cross section: $\sigma_{th} = \frac{8}{3}\pi r_e^2$
-        \item $\frac{\symup{d}\sigma}{\symup{d}E} = \frac{3}{8}\sigma_{th}\frac{1}{m_0 c^2 \epsilon^2}
-        (2 + (\frac{E}{h\nu - E})^2(\frac{1}{\epsilon^2} + \frac{h\nu - E}{h\nu}-\frac{2}{\epsilon}(\frac{h\nu - E}{h\nu})))$
+        \item $E_\gamma\prime = \frac{E_\gamma}{1 + \left( \frac{E_\gamma}{511 keV} (1 - cos\theta)\right)}$
+        \item $E_{e^-} = E_\gamma \left( \frac{\frac{E_\gamma}{511 keV}(1 - cos\theta)}{1 + \frac{E_\gamma}{511 keV}(1 - cos\theta)} \right)$
+        \item extreme cases: backward scattering, light graze
       \end{itemize}
     \end{column}
   \end{columns}
@@ -234,48 +261,173 @@
     \end{column}
     \begin{column}[c]{0.48\textwidth}
       \begin{itemize}
-        \item photon produces e+e- pair if E is high enough
-        \item can only occur in proximity of nucleus/scattering partner
-        \item in restframe photon mass = 0, lepton mass > 0; someone needs to take the momentum
-        \item photon line visible if both leptons are absorbed; different lines if leptons escape (BREMSSTRAHLUNG)
+        \item photon produces e+e- pair if E is high enough (5 MeV < E < 10 MeV)
+        \item occurs in proximity of nucleus/scattering partner
+        % \item in restframe photon mass = 0, lepton mass > 0; someone needs to take the momentum
+        \item photon line visible if both leptons are absorbed;
         \item annihilation peak : 511 keV (e- mass) or doubled for both
+        \item single- and double-escape peaks
       \end{itemize}
     \end{column}
   \end{columns}
 \end{frame}
 
-\begin{frame}\frametitle{Germanium detector}
+\begin{frame}\frametitle{Energy spectra}
+  \begin{figure}
+    \includegraphics[width=0.9\textwidth]{plots/full_spec.png}
+    \caption{Full spectrum of Cs-137 source}
+  \end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{Band structure}
+  \begin{columns}
+    \begin{column}[c]{0.48\textwidth}
+      \includegraphics[width=\textwidth]{plots/bands.png}
+    \end{column}
+    \begin{column}[c]{0.48\textwidth}
+      \begin{itemize}
+        \item electrons in discrete/precise energy bands
+        \item valence band: outer band for chemical reactions; most inhibited
+        \item conduction band: migration of electrons
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Mobility of "Holes"}
+  \begin{columns}
+    \begin{column}[c]{0.48\textwidth}
+      \includegraphics[width=\textwidth]{plots/holes.png}
+    \end{column}
+    \begin{column}[c]{0.48\textwidth}
+      \begin{itemize}
+        \item positive charge $\equiv$ hole in the band
+        \item measuring the energy relies on separating the charge carriers
+        \item electrons from valence band filling holes -> effective moving
+        \item -> conductivity
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Creation of charge carriers}
+  \begin{columns}
+    \begin{column}[c]{0.48\textwidth}
+      \begin{itemize}
+        \item excite electrons from low bands through high energies (E > $E_\text{therm}$)
+        \item redistribution of electrons-holes throughout energy-bands
+        \item holes: top of valence band
+        \item electrons: bottom of conduction band
+        \item external field: charge carriers migrate towards respective electrode
+      \end{itemize}
+    \end{column}
+    \begin{column}[c]{0.48\textwidth}
+      \begin{itemize}
+        \item number of electron-hole pairs $n = E_\text{abs} / \epsilon$
+        \item $\epsilon$: average energy needed to create electron hole pair
+        \item $E_\text{abs}$: absorbed gamma ray energy
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{resolution and suitable semiconductors}
+resolution $\propto$ n -> detector needs specific properties
+  \begin{itemize}
+    \item large absorption coefficient (high atomic number Z)
+    \item low $\epsilon$: to produce many electron-hole pairs
+    \item allow good Mobility (trapping inside semiconductor lattice)
+    \item pure crystal structure (traps for charge carriers)
+    \item cannot be too expensive
+  \end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Why Germanium as detector material?}
+  \begin{columns}
+    \begin{column}[c]{0.48\textwidth}
+      \includegraphics[width=\textwidth]{plots/candidates.png}
+    \end{column}
+    \begin{column}[c]{0.48\textwidth}
+      \begin{itemize}
+        \item Silicon: highly pure, low-priced, low atomic number (low energy photons)
+        \item Germanium: higher Z -> good for higher energy gamma radiation
+        \item improvements reduced resolution to $\approx$ 1.8 keV
+        \item low temperature -> reduce leakage current
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Why Germanium as detector material?}
   \begin{columns}
     \begin{column}[c]{0.48\textwidth}
       \includegraphics[width=\textwidth]{plots/ge.png}
     \end{column}
     \begin{column}[c]{0.48\textwidth}
-      % \textbf{c}
       \begin{itemize}
-        \item germanium semiconductor
-        \item solid detection material for full energy deposition inside
-        \item gas: only partial deposition
-        \item electrical properties needed for electron-hole pairs to electric signal!
-        \item also possible: scintillators -> trap photons and use SiPMs
+        \item
       \end{itemize}
     \end{column}
   \end{columns}
 \end{frame}
 
-\begin{frame}{Band structure}
-  \begin{itemize}
-    \item electrons in discrete/precise energy bands with fixed number of e-
-    \item valence band: outer band for chemical reactions; most inhibited
-    \item electrons must move between bands to migrate the material
-  \end{itemize}
+\begin{frame}\frametitle{Semiconductor detector}
+  \begin{columns}
+    \begin{column}[c]{0.48\textwidth}
+      \includegraphics[width=\textwidth]{plots/junction.png}
+    \end{column}
+    \begin{column}[c]{0.48\textwidth}
+      \begin{itemize}
+        \item p-n or M-S junctions possible
+        \item electrodes form a metal-semiconductor junction
+        \item impurities: p-type (acceptor states), n-type (donator states)
+        \item solid detection material for full energy deposition inside
+        \item doping: adding energy states -> narrowing the band gap
+        % \item electrical properties needed for electron-hole pairs to electric signal
+        \item maximising the depletion zone -> hinder recombination -> reconstruct energy of the event
+        \item probability of thermal excitation: $p(T) = T^{3/2} exp(-E_g / 2 k_b T)$
+      \end{itemize}
+    \end{column}
+  \end{columns}
 \end{frame}
 
-\begin{frame}{Semi conductor}
+\begin{frame}\frametitle{Metal-Semiconductor junction}
+  \begin{columns}
+    \begin{column}[c]{0.48\textwidth}
+      \includegraphics[width=0.7\textwidth]{plots/pre_m_s.png}
+    \end{column}
+    \begin{column}[c]{0.48\textwidth}
+      \begin{itemize}
+        \item $W_0$: vacuum level, $E_L$: conduction band, $E_F$: fermi energy
+        \item $E_V$: valence band, $E_{LM}$: energy level in metal, $E_{FM}$: fermi energy in metal
+        \item electrons can migrate from Semiconductor to metal since E-level is lower
+        \item probability of finding electrons in conduction band gets lower
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Metal-Semiconductor junction (n-Si)}
+  \begin{columns}
+    \begin{column}[c]{0.48\textwidth}
+      \includegraphics[width=0.7\textwidth]{plots/post_m_s.png}
+    \end{column}
+    \begin{column}[c]{0.48\textwidth}
+      \begin{itemize}
+        \item migrated charge carriers form depletion zone and lower fermi level
+        \item additional $e^{-}$ must overcome the Schottky-barrier to flow into Metal
+        \item fermi levels in metal and semiconductor equalize via diffusion process
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Why is this junction used over p-n?}
   \begin{itemize}
-    \item small band gap between valence band and conduction band (1 eV)
-    \item few e- in conduction band -> limited conductivity
-    \item migration proportional to Temparture T
-    \item $p(T) = T^{3/2} \times exp(-E_g / 2 k_b T)$
+    \item Si-Schottky diodes are substantially faster changing from forward bias to reverse bias
+    \item -> switching action: 10 - 100 GHz possible because no "holes" in metal
+    \item low forward voltage drop (0.15 - 0.45V) p-n: 0.6 - 0.75 V
+    \item But: higher reverse leakage current
   \end{itemize}
 \end{frame}
 
@@ -284,25 +436,25 @@
     \item p and n doped areas
     \item charge carriers diffuse and recombinate
     \item surface is charge carrier poor zone
-    \item  acceptor in p, donator in n _. electric field hinders carriers
+    \item acceptor in p, donator in n. electric field hinders carriers
     \item the bigger the zone the better the seperation -> more $U_g$
-    \item seperation before recombination -> pulse -> quatification of energy
+    \item seperation before recombination \to pulse \to quatification of energy
     \item only possible if generated in depletion zone (charge carrier poor zone)
     \item depletion zone big -> reverse voltage and doping material
     \item asymmetric doping (equation)
     \item noise: electrons randomly passing reverse voltage, also cool detector
-    \item veto region with alu case ($E_{min} = 40 - 50 keV$)
+    \item veto region with alu case ($E_{min} = 40 - 50$ keV)
     \item Li in Ge for n, Au in Ge for p
   \end{itemize}
 \end{frame}
 
-\begin{frame}\frametitle{why is gamma spectroscopy better than radio chemistry?}
+\begin{frame}\frametitle{Evaluation of gamma spec}
   \begin{columns}
     \begin{column}[c]{0.48\textwidth}
       PRO:
       \begin{itemize}
-        \item less expensive
-        \item fast
+        \item quite cheap in material costs
+        \item relatively fast result evaluation
         \item multinuclide analysis (distinct lines visible for all nuclides)
         \item non-destructive for emitter (radiation hardness of detector given)
         \item remote measurement
@@ -315,45 +467,38 @@
         \item require large sample masses (if not gamma rays from space)
       \end{itemize}
     \end{column}
+  \end{columns}
 \end{frame}
 
 \begin{frame}\frametitle{Table of interesting radio nuclides}
-  \includegraphics[width=\textwidth]{plots/nuclid_table1.png}
+  \includegraphics[width=0.8\textwidth]{plots/nuclid_table1.png}
 \end{frame}
 
 \begin{frame}\frametitle{Summary}
   \begin{itemize}
-    \item f
+    \item
   \end{itemize}
 \end{frame}
 
 \begin{frame}\frametitle{Quellen}
-% \url{http://www.telescopearray.org/index.php/about/telescope-array} \\
-% \url{https://www.researchgate.net/figure/A-schematic-of-the-Pierre-Auger-Observatory-where-each-black-dot-is-a-water-Cherenkov_fig1_319524774} \\
-% \url{https://www.cta-observatory.org/pevatrons-hunt-for-galactic-cosmic-rays/} \\
-% \url{https://arxiv.org/pdf/2105.06148.pdf} \\
-% \url{https://doi.org/10.1007/978-3-319-63411-1_1} \\
-% \url{https://www.sciencedirect.com/science/article/pii/S0927650512000382} \\
-% \url{https://cerncourier.com/a/lhcbs-momentous-metamorphosis/} \\
-% \url{https://arxiv.org/pdf/1412.5106.pdf} \\
-% \url{https://www.epj-conferences.org/articles/epjconf/pdf/2019/14/epjconf_ricap2019_01015.pdf} \\
-% \url{https://pos.sissa.it/358/890/pdf} \\
+\url{https://onlinelibrary.wiley.com/doi/book/10.1002/9780470861981} \\
+\url{V18_Anleitung.pdf} \\
+\url{https://www.nrc.gov/docs/ML1122/ML11229A699.pdf} \\
+\url{https://www.electrical4u.com/schottky-diode/} \\
+\end{frame}
+
+\begin{frame}\frametitle{Backup}
+  \begin{columns}
+    \begin{column}[c]{0.45\textwidth}
+      \begin{itemize}
+        \item Attenuation egde for caesium iodine (CsI)
+        \item 2 K-lines and 2 L-lines
+      \end{itemize}
+    \end{column}
+  \begin{column}[c]{0.45\textwidth}
+    \includegraphics[width=0.8\textwidth]{plots/attenuation_edges.png}
+  \end{column}
+  \end{columns}
 \end{frame}
 
 \end{document}
-
-% \begin{frame}\frametitle{}
-%   \begin{columns}
-%   \begin{column}[c]{0.45\textwidth}
-%     \begin{itemize}
-%       \item
-%       \item
-%       \item
-%       \item
-%     \end{itemize}
-%   \end{column}
-%   \begin{column}[c]{0.45\textwidth}
-%     % \includegraphics{images/icecube.png}
-%   \end{column}
-%   \end{columns}
-% \end{frame}
