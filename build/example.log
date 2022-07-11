@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2022.2.5)  10 JUL 2022 15:33
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2022.2.5)  11 JUL 2022 16:17
  restricted system commands enabled.
 **example.tex
 (./example.tex
@@ -398,8 +398,8 @@ File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 f.code.tex
 File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
-(/home/nils/.local/texlive/2021/texmf-dist/tex/latex/extsizes/size9.clo
-File: size9.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+(/home/nils/.local/texlive/2021/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 (/home/nils/.local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
 Package: xxcolor 2003/10/24 ver 0.1
@@ -909,11 +909,11 @@ braces):
 >  {german/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}.
 Module polyglossia Info: Language data for german
-(polyglossia)            hyphenation	
-(polyglossia)            righthyphenmin	2
 (polyglossia)            loader	loadhyph-de-1901.tex
+(polyglossia)            hyphenation	
 (polyglossia)            lefthyphenmin	2
 (polyglossia)            patterns	hyph-de-1901.pat.txt
+(polyglossia)            righthyphenmin	2
 (polyglossia)            synonyms	 on input line 10
 Module polyglossia Info: Language german was not yet loaded; created with id 2 o
 n input line 10
@@ -1144,9 +1144,9 @@ Package fontspec Info: Could not resolve font "LatinModernMath/B" (it probably
 Package fontspec Info: Font family 'LatinModernMath(1)' created for font
 (fontspec)             'Latin Modern Math' with options
 (fontspec)             [Renderer=Harfbuzz,Renderer=Basic,BoldItalicFont={},Ital
-icFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=7.65-},{Size=5.4-7.6
-5,Font=Latin
-(fontspec)             Modern Math,Style=MathScript},{Size=-5.4,Font=Latin
+icFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=10.2-},{Size=7.2-10.
+2,Font=Latin
+(fontspec)             Modern Math,Style=MathScript},{Size=-7.2,Font=Latin
 (fontspec)             Modern
 (fontspec)             Math,Style=MathScriptScript}},FontAdjustment={\__um_luat
 ex_copy_fontdimens:
@@ -1156,9 +1156,9 @@ ex_copy_fontdimens:
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <7.65->"LatinModernMath:mode=base;script=math;language=d
-flt;"<5.4-7.65>"LatinModernMath:mode=base;script=math;language=dflt;+ssty=0;"<-
-5.4>"LatinModernMath:mode=base;script=math;language=dflt;+ssty=1;"
+(fontspec)             <10.2->"LatinModernMath:mode=base;script=math;language=d
+flt;"<7.2-10.2>"LatinModernMath:mode=base;script=math;language=dflt;+ssty=0;"<-
+7.2>"LatinModernMath:mode=base;script=math;language=dflt;+ssty=1;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             and font adjustment code:
 (fontspec)             \__um_luatex_copy_fontdimens: 
@@ -1193,44 +1193,44 @@ Package fontspec Info: LatinModernMath scale = 1.0001.
 Package fontspec Info: Font family 'LatinModernMath(2)' created for font
 (fontspec)             'Latin Modern Math' with options
 (fontspec)             [Renderer=Harfbuzz,Renderer=Basic,BoldItalicFont={},Ital
-icFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=7.65-},{Size=5.4-7.6
-5,Font=Latin
-(fontspec)             Modern Math,Style=MathScript},{Size=-5.4,Font=Latin
+icFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=10.2-},{Size=7.2-10.
+2,Font=Latin
+(fontspec)             Modern Math,Style=MathScript},{Size=-7.2,Font=Latin
 (fontspec)             Modern
 (fontspec)             Math,Style=MathScriptScript}},FontAdjustment={\__um_luat
 ex_copy_fontdimens:
 (fontspec)             },ScaleAgain=1.0001,FontAdjustment={\fontdimen 8\font
-(fontspec)             =6.09299pt\relax \fontdimen 9\font =3.54599pt\relax
-(fontspec)             \fontdimen 10\font =3.99599pt\relax \fontdimen 11\font
-(fontspec)             =6.174pt\relax \fontdimen 12\font =3.105pt\relax
-(fontspec)             \fontdimen 13\font =3.267pt\relax \fontdimen 14\font
-(fontspec)             =3.267pt\relax \fontdimen 15\font =2.601pt\relax
-(fontspec)             \fontdimen 16\font =2.22299pt\relax \fontdimen 17\font
-(fontspec)             =2.22299pt\relax \fontdimen 18\font =2.25pt\relax
-(fontspec)             \fontdimen 19\font =1.79999pt\relax \fontdimen 22\font
-(fontspec)             =2.25pt\relax \fontdimen 20\font =0pt\relax \fontdimen
+(fontspec)             =8.124pt\relax \fontdimen 9\font =4.728pt\relax
+(fontspec)             \fontdimen 10\font =5.32799pt\relax \fontdimen 11\font
+(fontspec)             =8.232pt\relax \fontdimen 12\font =4.14pt\relax
+(fontspec)             \fontdimen 13\font =4.35599pt\relax \fontdimen 14\font
+(fontspec)             =4.35599pt\relax \fontdimen 15\font =3.46799pt\relax
+(fontspec)             \fontdimen 16\font =2.96399pt\relax \fontdimen 17\font
+(fontspec)             =2.96399pt\relax \fontdimen 18\font =3.0pt\relax
+(fontspec)             \fontdimen 19\font =2.4pt\relax \fontdimen 22\font
+(fontspec)             =3.0pt\relax \fontdimen 20\font =0pt\relax \fontdimen
 (fontspec)             21\font =0pt\relax }].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <7.65->s*[1.0001]"LatinModernMath:mode=base;script=math;
-language=dflt;"<5.4-7.65>s*[1.0001]"LatinModernMath:mode=base;script=math;langu
-age=dflt;+ssty=0;"<-5.4>s*[1.0001]"LatinModernMath:mode=base;script=math;langua
+(fontspec)             <10.2->s*[1.0001]"LatinModernMath:mode=base;script=math;
+language=dflt;"<7.2-10.2>s*[1.0001]"LatinModernMath:mode=base;script=math;langu
+age=dflt;+ssty=0;"<-7.2>s*[1.0001]"LatinModernMath:mode=base;script=math;langua
 ge=dflt;+ssty=1;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             and font adjustment code:
 (fontspec)             \__um_luatex_copy_fontdimens: \fontdimen 8\font
-(fontspec)             =6.09299pt\relax \fontdimen 9\font =3.54599pt\relax
-(fontspec)             \fontdimen 10\font =3.99599pt\relax \fontdimen 11\font
-(fontspec)             =6.174pt\relax \fontdimen 12\font =3.105pt\relax
-(fontspec)             \fontdimen 13\font =3.267pt\relax \fontdimen 14\font
-(fontspec)             =3.267pt\relax \fontdimen 15\font =2.601pt\relax
-(fontspec)             \fontdimen 16\font =2.22299pt\relax \fontdimen 17\font
-(fontspec)             =2.22299pt\relax \fontdimen 18\font =2.25pt\relax
-(fontspec)             \fontdimen 19\font =1.79999pt\relax \fontdimen 22\font
-(fontspec)             =2.25pt\relax \fontdimen 20\font =0pt\relax \fontdimen
+(fontspec)             =8.124pt\relax \fontdimen 9\font =4.728pt\relax
+(fontspec)             \fontdimen 10\font =5.32799pt\relax \fontdimen 11\font
+(fontspec)             =8.232pt\relax \fontdimen 12\font =4.14pt\relax
+(fontspec)             \fontdimen 13\font =4.35599pt\relax \fontdimen 14\font
+(fontspec)             =4.35599pt\relax \fontdimen 15\font =3.46799pt\relax
+(fontspec)             \fontdimen 16\font =2.96399pt\relax \fontdimen 17\font
+(fontspec)             =2.96399pt\relax \fontdimen 18\font =3.0pt\relax
+(fontspec)             \fontdimen 19\font =2.4pt\relax \fontdimen 22\font
+(fontspec)             =3.0pt\relax \fontdimen 20\font =0pt\relax \fontdimen
 (fontspec)             21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
@@ -1263,32 +1263,32 @@ Package fontspec Info: LatinModernMath scale = 0.9999.
 Package fontspec Info: Font family 'LatinModernMath(3)' created for font
 (fontspec)             'Latin Modern Math' with options
 (fontspec)             [Renderer=Harfbuzz,Renderer=Basic,BoldItalicFont={},Ital
-icFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=7.65-},{Size=5.4-7.6
-5,Font=Latin
-(fontspec)             Modern Math,Style=MathScript},{Size=-5.4,Font=Latin
+icFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=10.2-},{Size=7.2-10.
+2,Font=Latin
+(fontspec)             Modern Math,Style=MathScript},{Size=-7.2,Font=Latin
 (fontspec)             Modern
 (fontspec)             Math,Style=MathScriptScript}},FontAdjustment={\__um_luat
 ex_copy_fontdimens:
 (fontspec)             },ScaleAgain=0.9999,FontAdjustment={\fontdimen 8\font
-(fontspec)             =0.35999pt\relax \fontdimen 9\font =1.79999pt\relax
-(fontspec)             \fontdimen 10\font =1.50299pt\relax \fontdimen 11\font
-(fontspec)             =0.999pt\relax \fontdimen 12\font =5.4pt\relax
+(fontspec)             =0.48pt\relax \fontdimen 9\font =2.4pt\relax \fontdimen
+(fontspec)             10\font =2.004pt\relax \fontdimen 11\font
+(fontspec)             =1.33199pt\relax \fontdimen 12\font =7.2pt\relax
 (fontspec)             \fontdimen 13\font =0pt\relax }].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <7.65->s*[0.9999]"LatinModernMath:mode=base;script=math;
-language=dflt;"<5.4-7.65>s*[0.9999]"LatinModernMath:mode=base;script=math;langu
-age=dflt;+ssty=0;"<-5.4>s*[0.9999]"LatinModernMath:mode=base;script=math;langua
+(fontspec)             <10.2->s*[0.9999]"LatinModernMath:mode=base;script=math;
+language=dflt;"<7.2-10.2>s*[0.9999]"LatinModernMath:mode=base;script=math;langu
+age=dflt;+ssty=0;"<-7.2>s*[0.9999]"LatinModernMath:mode=base;script=math;langua
 ge=dflt;+ssty=1;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             and font adjustment code:
 (fontspec)             \__um_luatex_copy_fontdimens: \fontdimen 8\font
-(fontspec)             =0.35999pt\relax \fontdimen 9\font =1.79999pt\relax
-(fontspec)             \fontdimen 10\font =1.50299pt\relax \fontdimen 11\font
-(fontspec)             =0.999pt\relax \fontdimen 12\font =5.4pt\relax
+(fontspec)             =0.48pt\relax \fontdimen 9\font =2.4pt\relax \fontdimen
+(fontspec)             10\font =2.004pt\relax \fontdimen 11\font
+(fontspec)             =1.33199pt\relax \fontdimen 12\font =7.2pt\relax
 (fontspec)             \fontdimen 13\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
@@ -1304,17 +1304,17 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> TU/LatinModernMath(3)/b/n on input lin
 e 49.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 9.00096pt on input line 49.
+(Font)              scaled to size 12.00128pt on input line 49.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 6.30067pt on input line 49.
+(Font)              scaled to size 8.40088pt on input line 49.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 4.50047pt on input line 49.
+(Font)              scaled to size 6.00064pt on input line 49.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 8.99904pt on input line 49.
+(Font)              scaled to size 11.99872pt on input line 49.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 6.29932pt on input line 49.
+(Font)              scaled to size 8.3991pt on input line 49.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 4.49951pt on input line 49.
+(Font)              scaled to size 5.99936pt on input line 49.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 49.
 
 
@@ -2194,7 +2194,7 @@ luaotfload | db : Reload initiated (formats: otf,ttf,ttc); reason: Font "Akkurat
  Light Office" not found.
 luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
 
-Package fontspec Info: FiraSansLight scale = 0.8489459574233577.
+Package fontspec Info: FiraSansLight scale = 0.8489466454334375.
 
 
 Package fontspec Info: Could not resolve font "FiraSansMedium/I" (it probably
@@ -2209,10 +2209,10 @@ Package fontspec Info: Could not resolve font "FiraSansLight/I" (it probably
 (fontspec)             doesn't exist).
 
 
-Package fontspec Info: FiraSansLight scale = 0.8489459574233577.
+Package fontspec Info: FiraSansLight scale = 0.8489466454334375.
 
 
-Package fontspec Info: FiraSansLight scale = 0.8489459574233577.
+Package fontspec Info: FiraSansLight scale = 0.8489466454334375.
 
 
 Package fontspec Info: FiraSansMedium scale = 0.8393169624829337.
@@ -2231,10 +2231,10 @@ ldFont=FiraSans
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[0.8489459574233577]"FiraSansLight:mode=harf;script
+(fontspec)             <->s*[0.8489466454334375]"FiraSansLight:mode=harf;script
 =latn;language=dflt;+tlig;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->s*[0.8489459574233577]"FiraSansLight:mode=harf;script
+(fontspec)             <->s*[0.8489466454334375]"FiraSansLight:mode=harf;script
 =latn;language=dflt;+tlig;+smcp;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
 (fontspec)             <->s*[0.8393169624829337]"FiraSansMedium:mode=harf;scrip
@@ -2244,9 +2244,9 @@ t=latn;language=dflt;+tlig;"
 t=latn;language=dflt;+tlig;+smcp;"
 
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 7.64058pt on input line 44.
+(Font)              scaled to size 10.18744pt on input line 44.
 
-Package fontspec Info: FiraSansLight scale = 0.8489491991351113.
+Package fontspec Info: FiraSansLight scale = 0.8489515080050085.
 
 
 Package fontspec Info: Could not resolve font "FiraSansMedium/I" (it probably
@@ -2261,16 +2261,16 @@ Package fontspec Info: Could not resolve font "FiraSansLight/I" (it probably
 (fontspec)             doesn't exist).
 
 
-Package fontspec Info: FiraSansLight scale = 0.8489491991351113.
+Package fontspec Info: FiraSansLight scale = 0.8489515080050085.
 
 
-Package fontspec Info: FiraSansLight scale = 0.8489491991351113.
+Package fontspec Info: FiraSansLight scale = 0.8489515080050085.
 
 
-Package fontspec Info: FiraSansMedium scale = 0.8393201674262383.
+Package fontspec Info: FiraSansMedium scale = 0.8393217698978905.
 
 
-Package fontspec Info: FiraSansMedium scale = 0.8393201674262383.
+Package fontspec Info: FiraSansMedium scale = 0.8393217698978905.
 
 
 Package fontspec Info: Font family 'FiraSansLight(1)' created for font
@@ -2283,16 +2283,16 @@ oldFont=FiraSans
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[0.8489491991351113]"FiraSansLight:mode=base;script
+(fontspec)             <->s*[0.8489515080050085]"FiraSansLight:mode=base;script
 =latn;language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->s*[0.8489491991351113]"FiraSansLight:mode=base;script
+(fontspec)             <->s*[0.8489515080050085]"FiraSansLight:mode=base;script
 =latn;language=dflt;+smcp;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[0.8393201674262383]"FiraSansMedium:mode=base;scrip
+(fontspec)             <->s*[0.8393217698978905]"FiraSansMedium:mode=base;scrip
 t=latn;language=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->s*[0.8393201674262383]"FiraSansMedium:mode=base;scrip
+(fontspec)             <->s*[0.8393217698978905]"FiraSansMedium:mode=base;scrip
 t=latn;language=dflt;+smcp;"
 
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
@@ -2302,19 +2302,19 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/FiraSansLight(1)/bx/n on input lin
 e 44.
 
-Package fontspec Info: FiraMono scale = 0.8425063859631063.
+Package fontspec Info: FiraMono scale = 0.842507316908392.
 
 
-Package fontspec Info: FiraMono scale = 0.8425063859631063.
+Package fontspec Info: FiraMono scale = 0.842507316908392.
 
 
-Package fontspec Info: FiraMono/B scale = 0.8361579575859362.
+Package fontspec Info: FiraMono/B scale = 0.8361622237760898.
 
 
-Package fontspec Info: FiraMono/I scale = 0.8425063859631063.
+Package fontspec Info: FiraMono/I scale = 0.842507316908392.
 
 
-Package fontspec Info: FiraMono/BI scale = 0.8361579575859362.
+Package fontspec Info: FiraMono/BI scale = 0.8361622237760898.
 
 
 Package fontspec Info: Font family 'FiraMono(0)' created for font 'Fira Mono'
@@ -2326,8 +2326,8 @@ ctuationSpace=WordSpace,Scale=MatchLowercase].
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[0.8425063859631063]"FiraMono:mode=harf;script=latn
-;language=dflt;"
+(fontspec)             <->s*[0.842507316908392]"FiraMono:mode=harf;script=latn;
+language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             and font adjustment code:
 (fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
@@ -2335,7 +2335,7 @@ ctuationSpace=WordSpace,Scale=MatchLowercase].
 (fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[0.8361579575859362]"FiraMono/B:mode=harf;script=la
+(fontspec)             <->s*[0.8361622237760898]"FiraMono/B:mode=harf;script=la
 tn;language=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             and font adjustment code:
@@ -2344,8 +2344,8 @@ tn;language=dflt;"
 (fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[0.8425063859631063]"FiraMono/I:mode=harf;script=la
-tn;language=dflt;"
+(fontspec)             <->s*[0.842507316908392]"FiraMono/I:mode=harf;script=lat
+n;language=dflt;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
 (fontspec)             and font adjustment code:
 (fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
@@ -2353,7 +2353,7 @@ tn;language=dflt;"
 (fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[0.8361579575859362]"FiraMono/BI:mode=harf;script=l
+(fontspec)             <->s*[0.8361622237760898]"FiraMono/BI:mode=harf;script=l
 atn;language=dflt;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 (fontspec)             and font adjustment code:
@@ -2363,25 +2363,25 @@ atn;language=dflt;"
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 
 
-Package fontspec Info: FiraMono scale = 0.8425063859631063.
+Package fontspec Info: FiraMono scale = 0.842507316908392.
 
 
-Package fontspec Info: FiraMono scale = 0.8425063859631063.
+Package fontspec Info: FiraMono scale = 0.842507316908392.
 
 luaotfload | aux : font no 70 (nil) does not define feature smcp for script latn
  with language dflt
 
-Package fontspec Info: FiraMono/B scale = 0.8361579575859362.
+Package fontspec Info: FiraMono/B scale = 0.8361622237760898.
 
 luaotfload | aux : font no 71 (nil) does not define feature smcp for script latn
  with language dflt
 
-Package fontspec Info: FiraMono/I scale = 0.8425063859631063.
+Package fontspec Info: FiraMono/I scale = 0.842507316908392.
 
 luaotfload | aux : font no 72 (nil) does not define feature smcp for script latn
  with language dflt
 
-Package fontspec Info: FiraMono/BI scale = 0.8361579575859362.
+Package fontspec Info: FiraMono/BI scale = 0.8361622237760898.
 
 luaotfload | aux : font no 73 (nil) does not define feature smcp for script latn
  with language dflt
@@ -2395,19 +2395,19 @@ Package fontspec Info: Font family 'FiraMono(1)' created for font 'Fira Mono'
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[0.8425063859631063]"FiraMono:mode=base;script=latn
-;language=dflt;"
+(fontspec)             <->s*[0.842507316908392]"FiraMono:mode=base;script=latn;
+language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[0.8361579575859362]"FiraMono/B:mode=base;script=la
+(fontspec)             <->s*[0.8361622237760898]"FiraMono/B:mode=base;script=la
 tn;language=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[0.8425063859631063]"FiraMono/I:mode=base;script=la
-tn;language=dflt;"
+(fontspec)             <->s*[0.842507316908392]"FiraMono/I:mode=base;script=lat
+n;language=dflt;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[0.8361579575859362]"FiraMono/BI:mode=base;script=l
+(fontspec)             <->s*[0.8361622237760898]"FiraMono/BI:mode=base;script=l
 atn;language=dflt;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
@@ -2416,14 +2416,14 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/FiraMono(1)/bx/n on input line 45.
 
-Package fontspec Info: FiraMath scale = 0.8425063859631063.
+Package fontspec Info: FiraMath scale = 0.842507316908392.
 
 
 Package fontspec Info: Could not resolve font "FiraMath/B" (it probably
 (fontspec)             doesn't exist).
 
 
-Package fontspec Info: FiraMath scale = 0.8425063859631063.
+Package fontspec Info: FiraMath scale = 0.842507316908392.
 
 
 Package fontspec Info: Font family 'FiraMath(0)' created for font 'Fira Math'
@@ -2437,37 +2437,37 @@ mens:
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[0.8425063859631063]"FiraMath:mode=base;script=math
-;language=dflt;"
+(fontspec)             <->s*[0.842507316908392]"FiraMath:mode=base;script=math;
+language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             and font adjustment code:
 (fontspec)             \__um_luatex_copy_fontdimens: 
 
 LaTeX Font Info:    Font shape `TU/FiraMath(0)/m/n' will be
-(Font)              scaled to size 7.58249pt on input line 46.
+(Font)              scaled to size 10.11017pt on input line 46.
 
-Package fontspec Info: FiraMath scale = 0.8425063859631063.
+Package fontspec Info: FiraMath scale = 0.842507316908392.
 
 
 Package fontspec Info: Could not resolve font "FiraMath/B" (it probably
 (fontspec)             doesn't exist).
 
 
-Package fontspec Info: FiraMath scale = 0.8425063859631063.
+Package fontspec Info: FiraMath scale = 0.842507316908392.
 
 
-Package fontspec Info: FiraMath scale = 0.8425063859631063.
+Package fontspec Info: FiraMath scale = 0.842507316908392.
 
 
-Package fontspec Info: FiraMath scale = 0.8425063859631063.
+Package fontspec Info: FiraMath scale = 0.842507316908392.
 
 
 Package fontspec Info: Font family 'FiraMath(1)' created for font 'Fira Math'
 (fontspec)             with options
 (fontspec)             [Renderer=Harfbuzz,Renderer=Basic,BoldItalicFont={},Ital
-icFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=7.74-},{Size=5.85-7.
-74,Font=Fira
-(fontspec)             Math,Style=MathScript},{Size=-5.85,Font=Fira
+icFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=10.32-},{Size=7.8-10
+.32,Font=Fira
+(fontspec)             Math,Style=MathScript},{Size=-7.8,Font=Fira
 (fontspec)             Math,Style=MathScriptScript}},FontAdjustment={\__um_luat
 ex_copy_fontdimens:
 (fontspec)             },Scale={MatchLowercase}].
@@ -2476,16 +2476,16 @@ ex_copy_fontdimens:
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <7.74->s*[0.8425063859631063]"FiraMath:mode=base;script=
-math;language=dflt;"<5.85-7.74>s*[0.8425063859631063]"FiraMath:mode=base;script
-=math;language=dflt;+ssty=0;"<-5.85>s*[0.8425063859631063]"FiraMath:mode=base;s
-cript=math;language=dflt;+ssty=1;"
+(fontspec)             <10.32->s*[0.842507316908392]"FiraMath:mode=base;script=
+math;language=dflt;"<7.8-10.32>s*[0.842507316908392]"FiraMath:mode=base;script=
+math;language=dflt;+ssty=0;"<-7.8>s*[0.842507316908392]"FiraMath:mode=base;scri
+pt=math;language=dflt;+ssty=1;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             and font adjustment code:
 (fontspec)             \__um_luatex_copy_fontdimens: 
 
 LaTeX Font Info:    Font shape `TU/FiraMath(1)/m/n' will be
-(Font)              scaled to size 7.58249pt on input line 46.
+(Font)              scaled to size 10.11017pt on input line 46.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/LatinModernMath(1)/m/n --> TU/FiraMath(1)/m/n on inp
 ut line 46.
@@ -2493,75 +2493,75 @@ LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/LatinModernMath(1)/b/n --> TU/FiraMath(1)/b/n on inp
 ut line 46.
 
-Package fontspec Info: FiraMath scale = 0.8425063859631063.
+Package fontspec Info: FiraMath scale = 0.842507316908392.
 
 
-Package fontspec Info: FiraMath scale = 0.8425906366017026.
+Package fontspec Info: FiraMath scale = 0.8425915676400828.
 
 
 Package fontspec Info: Could not resolve font "FiraMath/B" (it probably
 (fontspec)             doesn't exist).
 
 
-Package fontspec Info: FiraMath scale = 0.8425063859631063.
+Package fontspec Info: FiraMath scale = 0.842507316908392.
 
 
-Package fontspec Info: FiraMath scale = 0.8425906366017026.
+Package fontspec Info: FiraMath scale = 0.8425915676400828.
 
 
-Package fontspec Info: FiraMath scale = 0.8425063859631063.
+Package fontspec Info: FiraMath scale = 0.842507316908392.
 
 
-Package fontspec Info: FiraMath scale = 0.8425906366017026.
+Package fontspec Info: FiraMath scale = 0.8425915676400828.
 
 
-Package fontspec Info: FiraMath scale = 0.8425063859631063.
+Package fontspec Info: FiraMath scale = 0.842507316908392.
 
 
-Package fontspec Info: FiraMath scale = 0.8425906366017026.
+Package fontspec Info: FiraMath scale = 0.8425915676400828.
 
 
 Package fontspec Info: Font family 'FiraMath(2)' created for font 'Fira Math'
 (fontspec)             with options
 (fontspec)             [Renderer=Harfbuzz,Renderer=Basic,BoldItalicFont={},Ital
-icFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=7.74-},{Size=5.85-7.
-74,Font=Fira
-(fontspec)             Math,Style=MathScript},{Size=-5.85,Font=Fira
+icFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=10.32-},{Size=7.8-10
+.32,Font=Fira
+(fontspec)             Math,Style=MathScript},{Size=-7.8,Font=Fira
 (fontspec)             Math,Style=MathScriptScript}},FontAdjustment={\__um_luat
 ex_copy_fontdimens:
 (fontspec)             },Scale={MatchLowercase},ScaleAgain=1.0001,FontAdjustmen
 t={\fontdimen
-(fontspec)             8\font =4.39784pt\relax \fontdimen 9\font
-(fontspec)             =3.41211pt\relax \fontdimen 10\font =3.41211pt\relax
-(fontspec)             \fontdimen 11\font =5.30774pt\relax \fontdimen 12\font
-(fontspec)             =3.63959pt\relax \fontdimen 13\font =3.03299pt\relax
-(fontspec)             \fontdimen 14\font =3.03299pt\relax \fontdimen 15\font
-(fontspec)             =2.04727pt\relax \fontdimen 16\font =2.65387pt\relax
-(fontspec)             \fontdimen 17\font =2.65387pt\relax \fontdimen 18\font
-(fontspec)             =2.72969pt\relax \fontdimen 19\font =1.89561pt\relax
-(fontspec)             \fontdimen 22\font =2.1231pt\relax \fontdimen 20\font
+(fontspec)             8\font =5.86389pt\relax \fontdimen 9\font
+(fontspec)             =4.54958pt\relax \fontdimen 10\font =4.54958pt\relax
+(fontspec)             \fontdimen 11\font =7.07712pt\relax \fontdimen 12\font
+(fontspec)             =4.85287pt\relax \fontdimen 13\font =4.04407pt\relax
+(fontspec)             \fontdimen 14\font =4.04407pt\relax \fontdimen 15\font
+(fontspec)             =2.72974pt\relax \fontdimen 16\font =3.53856pt\relax
+(fontspec)             \fontdimen 17\font =3.53856pt\relax \fontdimen 18\font
+(fontspec)             =3.63965pt\relax \fontdimen 19\font =2.52754pt\relax
+(fontspec)             \fontdimen 22\font =2.83084pt\relax \fontdimen 20\font
 (fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax }].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <7.74->s*[0.8425906366017026]"FiraMath:mode=base;script=
-math;language=dflt;"<5.85-7.74>s*[0.8425906366017026]"FiraMath:mode=base;script
-=math;language=dflt;+ssty=0;"<-5.85>s*[0.8425906366017026]"FiraMath:mode=base;s
+(fontspec)             <10.32->s*[0.8425915676400828]"FiraMath:mode=base;script
+=math;language=dflt;"<7.8-10.32>s*[0.8425915676400828]"FiraMath:mode=base;scrip
+t=math;language=dflt;+ssty=0;"<-7.8>s*[0.8425915676400828]"FiraMath:mode=base;s
 cript=math;language=dflt;+ssty=1;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             and font adjustment code:
 (fontspec)             \__um_luatex_copy_fontdimens: \fontdimen 8\font
-(fontspec)             =4.39784pt\relax \fontdimen 9\font =3.41211pt\relax
-(fontspec)             \fontdimen 10\font =3.41211pt\relax \fontdimen 11\font
-(fontspec)             =5.30774pt\relax \fontdimen 12\font =3.63959pt\relax
-(fontspec)             \fontdimen 13\font =3.03299pt\relax \fontdimen 14\font
-(fontspec)             =3.03299pt\relax \fontdimen 15\font =2.04727pt\relax
-(fontspec)             \fontdimen 16\font =2.65387pt\relax \fontdimen 17\font
-(fontspec)             =2.65387pt\relax \fontdimen 18\font =2.72969pt\relax
-(fontspec)             \fontdimen 19\font =1.89561pt\relax \fontdimen 22\font
-(fontspec)             =2.1231pt\relax \fontdimen 20\font =0pt\relax
+(fontspec)             =5.86389pt\relax \fontdimen 9\font =4.54958pt\relax
+(fontspec)             \fontdimen 10\font =4.54958pt\relax \fontdimen 11\font
+(fontspec)             =7.07712pt\relax \fontdimen 12\font =4.85287pt\relax
+(fontspec)             \fontdimen 13\font =4.04407pt\relax \fontdimen 14\font
+(fontspec)             =4.04407pt\relax \fontdimen 15\font =2.72974pt\relax
+(fontspec)             \fontdimen 16\font =3.53856pt\relax \fontdimen 17\font
+(fontspec)             =3.53856pt\relax \fontdimen 18\font =3.63965pt\relax
+(fontspec)             \fontdimen 19\font =2.52754pt\relax \fontdimen 22\font
+(fontspec)             =2.83084pt\relax \fontdimen 20\font =0pt\relax
 (fontspec)             \fontdimen 21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `U' has changed to `TU' for symbol font
@@ -2575,63 +2575,63 @@ LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  U/MnSymbolF/b/n --> TU/FiraMath(2)/b/n on input line 46
 .
 
-Package fontspec Info: FiraMath scale = 0.8425063859631063.
+Package fontspec Info: FiraMath scale = 0.842507316908392.
 
 
-Package fontspec Info: FiraMath scale = 0.84242213532451.
+Package fontspec Info: FiraMath scale = 0.8424230661767012.
 
 
 Package fontspec Info: Could not resolve font "FiraMath/B" (it probably
 (fontspec)             doesn't exist).
 
 
-Package fontspec Info: FiraMath scale = 0.8425063859631063.
+Package fontspec Info: FiraMath scale = 0.842507316908392.
 
 
-Package fontspec Info: FiraMath scale = 0.84242213532451.
+Package fontspec Info: FiraMath scale = 0.8424230661767012.
 
 
-Package fontspec Info: FiraMath scale = 0.8425063859631063.
+Package fontspec Info: FiraMath scale = 0.842507316908392.
 
 
-Package fontspec Info: FiraMath scale = 0.84242213532451.
+Package fontspec Info: FiraMath scale = 0.8424230661767012.
 
 
-Package fontspec Info: FiraMath scale = 0.8425063859631063.
+Package fontspec Info: FiraMath scale = 0.842507316908392.
 
 
-Package fontspec Info: FiraMath scale = 0.84242213532451.
+Package fontspec Info: FiraMath scale = 0.8424230661767012.
 
 
 Package fontspec Info: Font family 'FiraMath(3)' created for font 'Fira Math'
 (fontspec)             with options
 (fontspec)             [Renderer=Harfbuzz,Renderer=Basic,BoldItalicFont={},Ital
-icFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=7.74-},{Size=5.85-7.
-74,Font=Fira
-(fontspec)             Math,Style=MathScript},{Size=-5.85,Font=Fira
+icFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=10.32-},{Size=7.8-10
+.32,Font=Fira
+(fontspec)             Math,Style=MathScript},{Size=-7.8,Font=Fira
 (fontspec)             Math,Style=MathScriptScript}},FontAdjustment={\__um_luat
 ex_copy_fontdimens:
 (fontspec)             },Scale={MatchLowercase},ScaleAgain=0.9999,FontAdjustmen
 t={\fontdimen
-(fontspec)             8\font =0.57626pt\relax \fontdimen 9\font
-(fontspec)             =1.13736pt\relax \fontdimen 10\font =1.13736pt\relax
-(fontspec)             \fontdimen 11\font =1.13736pt\relax \fontdimen 12\font
-(fontspec)             =4.54948pt\relax \fontdimen 13\font =0pt\relax }].
+(fontspec)             8\font =0.76837pt\relax \fontdimen 9\font
+(fontspec)             =1.51653pt\relax \fontdimen 10\font =1.51653pt\relax
+(fontspec)             \fontdimen 11\font =1.51653pt\relax \fontdimen 12\font
+(fontspec)             =6.0661pt\relax \fontdimen 13\font =0pt\relax }].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <7.74->s*[0.84242213532451]"FiraMath:mode=base;script=ma
-th;language=dflt;"<5.85-7.74>s*[0.84242213532451]"FiraMath:mode=base;script=mat
-h;language=dflt;+ssty=0;"<-5.85>s*[0.84242213532451]"FiraMath:mode=base;script=
-math;language=dflt;+ssty=1;"
+(fontspec)             <10.32->s*[0.8424230661767012]"FiraMath:mode=base;script
+=math;language=dflt;"<7.8-10.32>s*[0.8424230661767012]"FiraMath:mode=base;scrip
+t=math;language=dflt;+ssty=0;"<-7.8>s*[0.8424230661767012]"FiraMath:mode=base;s
+cript=math;language=dflt;+ssty=1;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             and font adjustment code:
 (fontspec)             \__um_luatex_copy_fontdimens: \fontdimen 8\font
-(fontspec)             =0.57626pt\relax \fontdimen 9\font =1.13736pt\relax
-(fontspec)             \fontdimen 10\font =1.13736pt\relax \fontdimen 11\font
-(fontspec)             =1.13736pt\relax \fontdimen 12\font =4.54948pt\relax
+(fontspec)             =0.76837pt\relax \fontdimen 9\font =1.51653pt\relax
+(fontspec)             \fontdimen 10\font =1.51653pt\relax \fontdimen 11\font
+(fontspec)             =1.51653pt\relax \fontdimen 12\font =6.0661pt\relax
 (fontspec)             \fontdimen 13\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
@@ -2647,45 +2647,42 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/MnSymbolE/b/n --> TU/FiraMath(3)/b/n on input line 
 46.
 LaTeX Font Info:    Font shape `TU/FiraMath(1)/m/n' will be
-(Font)              scaled to size 5.45938pt on input line 46.
+(Font)              scaled to size 7.27931pt on input line 46.
 LaTeX Font Info:    Font shape `TU/FiraMath(1)/m/n' will be
-(Font)              scaled to size 4.39784pt on input line 46.
+(Font)              scaled to size 5.86389pt on input line 46.
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 7.58331pt on input line 46.
+(Font)              scaled to size 10.11108pt on input line 46.
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 5.45998pt on input line 46.
+(Font)              scaled to size 7.27997pt on input line 46.
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 4.39832pt on input line 46.
+(Font)              scaled to size 5.86443pt on input line 46.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 7.5818pt on input line 46.
+(Font)              scaled to size 10.10907pt on input line 46.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 5.4589pt on input line 46.
+(Font)              scaled to size 7.27852pt on input line 46.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 4.39745pt on input line 46.
+(Font)              scaled to size 5.86327pt on input line 46.
 LaTeX Font Info:    Trying to load font information for U+wasy on input line 46
 .
 
 (/home/nils/.local/texlive/2021/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
-
-LaTeX Font Warning: Font shape `U/wasy/m/n' in size <6.48> not available
-(Font)              size <6> substituted on input line 46.
-
 \headerheight=\skip96
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'polyglossia' package.
- (./build/example.aux
+
+(./build/example.aux
 LaTeX Info: Redefining \rmfamily on input line 22.
 LaTeX Info: Redefining \sffamily on input line 22.
 LaTeX Info: Redefining \ttfamily on input line 22.
 Module polyglossia Info: Language data for ngerman
-(polyglossia)            hyphenation	
-(polyglossia)            righthyphenmin	2
 (polyglossia)            loader	loadhyph-de-1996.tex
+(polyglossia)            hyphenation	
 (polyglossia)            lefthyphenmin	2
 (polyglossia)            patterns	hyph-de-1996.pat.txt
+(polyglossia)            righthyphenmin	2
 (polyglossia)            synonyms	 on input line 22
 Module polyglossia Info: Language ngerman was not yet loaded; created with id 4 
 on input line 22
@@ -2732,12 +2729,12 @@ LaTeX Font Info:    ... okay on input line 160.
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
-* \topskip=9.0pt
+* \topskip=12.0pt
 * \footskip=14.22636pt
 * \marginparwidth=4.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=8.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -2963,9 +2960,9 @@ Module polyglossia Info: Language ngerman already loaded; id is 4 on input line
 160
  (./build/example.nav)
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 4.24477pt on input line 160.
+(Font)              scaled to size 5.09372pt on input line 160.
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/b/n' will be
-(Font)              scaled to size 4.19655pt on input line 160.
+(Font)              scaled to size 5.03586pt on input line 160.
 
 warning  (file logos/tu.pdf) (pdf inclusion): PDF inclusion: found PDF version '
 1.7', but at most version '1.5' allowed
@@ -2974,22 +2971,32 @@ File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
 Package luatex.def Info: logos/tu.pdf  used on input line 160.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+
+Overfull \hbox (1.05684pt too wide) in paragraph at lines 160--160
+ [][]  
+ []
+
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 8.48953pt on input line 160.
+(Font)              scaled to size 12.22491pt on input line 160.
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 12.22491pt on input line 161.
+(Font)              scaled to size 21.12195pt on input line 161.
+LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/b/n' will be
+(Font)              scaled to size 20.88202pt on input line 161.
+LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
+(Font)              scaled to size 14.6699pt on input line 161.
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/b/n' will be
 (Font)              scaled to size 12.08604pt on input line 161.
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 9.29602pt on input line 161.
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/b/n' will be
-(Font)              scaled to size 8.3931pt on input line 161.
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
 (Font)              scaled to size 3.39581pt on input line 161.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
 Package luatex.def Info: logos/tu.pdf  used on input line 161.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+
+Overfull \hbox (1.05684pt too wide) has occurred while \output is active
+ [][]  
+ []
+
 [1{/home/nils/.local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 <./logos/tu.pdf>]
@@ -2997,16 +3004,26 @@ File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
 Package luatex.def Info: logos/tu.pdf  used on input line 171.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
- [2
+
+Overfull \hbox (1.05684pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[2
 
 ]
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/b/n' will be
-(Font)              scaled to size 7.55379pt on input line 179.
+(Font)              scaled to size 10.07172pt on input line 179.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
 Package luatex.def Info: logos/tu.pdf  used on input line 179.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
- [3
+
+Overfull \hbox (1.05684pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[3
 
 ]
 <plots/z_depend.png, id=37, 409.53pt x 279.29344pt>
@@ -3015,88 +3032,91 @@ File: plots/z_depend.png Graphic file (type png)
 Package luatex.def Info: plots/z_depend.png  used on input line 198.
 (luatex.def)             Requested size: 204.11534pt x 139.20741pt.
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 6.79163pt on input line 198.
+(Font)              scaled to size 9.29602pt on input line 198.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `FiraMath' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-(/home/nils/.local/texlive/2021/texmf-dist/tex/latex/microtype/mt-msa.cfg
+ (/home/nils/.local/texlive/2021/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 (/home/nils/.local/texlive/2021/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolA/m/n/9'
-(microtype)             (new value: 9.0pt) on input line 198.
-Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolA/m/n/6.48'
-(microtype)             (new value: 6.48pt) on input line 198.
-Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolA/m/n/5.22'
-(microtype)             (new value: 5.22pt) on input line 198.
-Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolB/m/n/9'
-(microtype)             (new value: 9.0pt) on input line 198.
-Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolB/m/n/6.48'
-(microtype)             (new value: 6.48pt) on input line 198.
-Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolB/m/n/5.22'
-(microtype)             (new value: 5.22pt) on input line 198.
-Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolC/m/n/9'
-(microtype)             (new value: 9.0pt) on input line 198.
-Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolC/m/n/6.48'
-(microtype)             (new value: 6.48pt) on input line 198.
-Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolC/m/n/5.22'
-(microtype)             (new value: 5.22pt) on input line 198.
-Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolD/m/n/9'
-(microtype)             (new value: 9.0pt) on input line 198.
-Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolD/m/n/6.48'
-(microtype)             (new value: 6.48pt) on input line 198.
-Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolD/m/n/5.22'
-(microtype)             (new value: 5.22pt) on input line 198.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolA/m/n/12'
+(microtype)             (new value: 12.0pt) on input line 198.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolA/m/n/8.64'
+(microtype)             (new value: 8.64pt) on input line 198.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolA/m/n/6.96'
+(microtype)             (new value: 6.96pt) on input line 198.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolB/m/n/12'
+(microtype)             (new value: 12.0pt) on input line 198.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolB/m/n/8.64'
+(microtype)             (new value: 8.64pt) on input line 198.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolB/m/n/6.96'
+(microtype)             (new value: 6.96pt) on input line 198.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolC/m/n/12'
+(microtype)             (new value: 12.0pt) on input line 198.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolC/m/n/8.64'
+(microtype)             (new value: 8.64pt) on input line 198.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolC/m/n/6.96'
+(microtype)             (new value: 6.96pt) on input line 198.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolD/m/n/12'
+(microtype)             (new value: 12.0pt) on input line 198.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolD/m/n/8.64'
+(microtype)             (new value: 8.64pt) on input line 198.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolD/m/n/6.96'
+(microtype)             (new value: 6.96pt) on input line 198.
 LaTeX Font Info:    Font shape `TU/FiraMath(1)/m/n' will be
-(Font)              scaled to size 8.42499pt on input line 198.
+(Font)              scaled to size 12.13219pt on input line 198.
 LaTeX Font Info:    Font shape `TU/FiraMath(1)/m/n' will be
-(Font)              scaled to size 5.89749pt on input line 198.
+(Font)              scaled to size 8.42514pt on input line 198.
 LaTeX Font Info:    Font shape `TU/FiraMath(1)/m/n' will be
-(Font)              scaled to size 4.2125pt on input line 198.
+(Font)              scaled to size 5.8976pt on input line 198.
+LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
+(Font)              scaled to size 12.13329pt on input line 198.
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
 (Font)              scaled to size 8.4259pt on input line 198.
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
 (Font)              scaled to size 5.89813pt on input line 198.
-LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 4.21295pt on input line 198.
+LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
+(Font)              scaled to size 12.13087pt on input line 198.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
 (Font)              scaled to size 8.42422pt on input line 198.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
 (Font)              scaled to size 5.89696pt on input line 198.
-LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 4.21211pt on input line 198.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolA/m/n/14.4'
+(microtype)             (new value: 14.4pt) on input line 198.
 Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolA/m/n/10'
 (microtype)             (new value: 10.0pt) on input line 198.
 Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolA/m/n/7'
 (microtype)             (new value: 7.0pt) on input line 198.
-Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolA/m/n/5'
-(microtype)             (new value: 5.0pt) on input line 198.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolB/m/n/14.4'
+(microtype)             (new value: 14.4pt) on input line 198.
 Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolB/m/n/10'
 (microtype)             (new value: 10.0pt) on input line 198.
 Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolB/m/n/7'
 (microtype)             (new value: 7.0pt) on input line 198.
-Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolB/m/n/5'
-(microtype)             (new value: 5.0pt) on input line 198.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolC/m/n/14.4'
+(microtype)             (new value: 14.4pt) on input line 198.
 Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolC/m/n/10'
 (microtype)             (new value: 10.0pt) on input line 198.
 Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolC/m/n/7'
 (microtype)             (new value: 7.0pt) on input line 198.
-Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolC/m/n/5'
-(microtype)             (new value: 5.0pt) on input line 198.
+Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolD/m/n/14.4'
+(microtype)             (new value: 14.4pt) on input line 198.
 Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolD/m/n/10'
 (microtype)             (new value: 10.0pt) on input line 198.
 Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolD/m/n/7'
 (microtype)             (new value: 7.0pt) on input line 198.
-Package microtype Info: Fixing zero fontdimen6 for font `U/MnSymbolD/m/n/5'
-(microtype)             (new value: 5.0pt) on input line 198.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
 Package luatex.def Info: logos/tu.pdf  used on input line 198.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+
+Overfull \hbox (1.05684pt too wide) has occurred while \output is active
+ [][]  
+ []
 
 [4
 
@@ -3105,15 +3125,20 @@ Package luatex.def Info: logos/tu.pdf  used on input line 198.
 File: plots/photo_abs.png Graphic file (type png)
 <use plots/photo_abs.png>
 Package luatex.def Info: plots/photo_abs.png  used on input line 220.
-(luatex.def)             Requested size: 204.11534pt x 218.64511pt.
+(luatex.def)             Requested size: 183.70256pt x 196.77852pt.
 
-Overfull \vbox (44.75829pt too high) detected at line 220
+Overfull \vbox (40.04782pt too high) detected at line 220
  []
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
 Package luatex.def Info: logos/tu.pdf  used on input line 220.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+
+Overfull \hbox (1.05684pt too wide) has occurred while \output is active
+ [][]  
+ []
+
 [5
 
 <./plots/photo_abs.png>]
@@ -3126,7 +3151,12 @@ File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
 Package luatex.def Info: logos/tu.pdf  used on input line 239.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
- [6
+
+Overfull \hbox (1.05684pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[6
 
 <./plots/compton.png>]
 <plots/compton_kante.png, id=62, 281.55188pt x 216.81pt>
@@ -3138,7 +3168,12 @@ File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
 Package luatex.def Info: logos/tu.pdf  used on input line 255.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
- [7
+
+Overfull \hbox (1.05684pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[7
 
 <./plots/compton_kante.png>]
 <plots/pair_triplett.png, id=70, 375.65344pt x 241.65282pt>
@@ -3150,199 +3185,267 @@ File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
 Package luatex.def Info: logos/tu.pdf  used on input line 273.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
- [8
 
-<./plots/pair_triplett.png>]
-<plots/full_spec.png, id=77, 318.43968pt x 180.675pt>
-File: plots/full_spec.png Graphic file (type png)
-<use plots/full_spec.png>
-Package luatex.def Info: plots/full_spec.png  used on input line 280.
-(luatex.def)             Requested size: 382.71707pt x 217.14523pt.
-
-Overfull \vbox (43.9622pt too high) detected at line 280
+Overfull \hbox (1.05684pt too wide) has occurred while \output is active
+ [][]  
  []
 
-File: logos/tu.pdf Graphic file (type pdf)
-<use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 280.
-(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
-[9
+[8
 
-<./plots/full_spec.png>]
-<plots/bands.png, id=84, 216.81pt x 167.87718pt>
+<./plots/pair_triplett.png>]
+<plots/bands.png, id=77, 216.81pt x 167.87718pt>
 File: plots/bands.png Graphic file (type png)
 <use plots/bands.png>
-Package luatex.def Info: plots/bands.png  used on input line 295.
+Package luatex.def Info: plots/bands.png  used on input line 288.
 (luatex.def)             Requested size: 204.11534pt x 158.0556pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 295.
+Package luatex.def Info: logos/tu.pdf  used on input line 288.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
- [10
+
+Overfull \hbox (1.05684pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[9
 
 <./plots/bands.png>]
-<plots/holes.png, id=91, 197.23688pt x 95.6072pt>
+<plots/holes.png, id=84, 197.23688pt x 95.6072pt>
 File: plots/holes.png Graphic file (type png)
 <use plots/holes.png>
-Package luatex.def Info: plots/holes.png  used on input line 311.
+Package luatex.def Info: plots/holes.png  used on input line 304.
 (luatex.def)             Requested size: 204.11534pt x 98.94186pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 311.
+Package luatex.def Info: logos/tu.pdf  used on input line 304.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
- [11
+
+Overfull \hbox (1.05684pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[10
 
 <./plots/holes.png>]
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 5.5012pt on input line 332.
+(Font)              scaled to size 7.33495pt on input line 325.
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 4.43153pt on input line 332.
+(Font)              scaled to size 5.9087pt on input line 325.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 332.
+Package luatex.def Info: logos/tu.pdf  used on input line 325.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+
+Overfull \hbox (1.05684pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[11
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 336.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+
+Overfull \hbox (1.05684pt too wide) has occurred while \output is active
+ [][]  
+ []
 
 [12
 
 ]
-File: logos/tu.pdf Graphic file (type pdf)
-<use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 343.
-(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
- [13
-
-]
-<plots/candidates.png, id=109, 651.18282pt x 273.27094pt>
+<plots/candidates.png, id=102, 651.18282pt x 273.27094pt>
 File: plots/candidates.png Graphic file (type png)
 <use plots/candidates.png>
-Package luatex.def Info: plots/candidates.png  used on input line 359.
+Package luatex.def Info: plots/candidates.png  used on input line 352.
 (luatex.def)             Requested size: 204.11534pt x 85.65547pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 359.
+Package luatex.def Info: logos/tu.pdf  used on input line 352.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
- [14
+
+Overfull \hbox (1.05684pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[13
 
 <./plots/candidates.png>]
-<plots/ge.png, id=116, 376.40625pt x 218.31563pt>
-File: plots/ge.png Graphic file (type png)
-<use plots/ge.png>
-Package luatex.def Info: plots/ge.png  used on input line 372.
-(luatex.def)             Requested size: 204.11534pt x 118.38835pt.
-File: logos/tu.pdf Graphic file (type pdf)
-<use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 372.
-(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
- [15
-
-<./plots/ge.png>]
-<plots/junction.png, id=123, 220.57407pt x 295.85532pt>
+<plots/junction.png, id=109, 220.57407pt x 295.85532pt>
 File: plots/junction.png Graphic file (type png)
 <use plots/junction.png>
-Package luatex.def Info: plots/junction.png  used on input line 392.
+Package luatex.def Info: plots/junction.png  used on input line 371.
 (luatex.def)             Requested size: 204.11534pt x 273.79279pt.
 
-Overfull \vbox (69.90596pt too high) detected at line 392
+Overfull \vbox (80.11789pt too high) detected at line 371
  []
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 392.
+Package luatex.def Info: logos/tu.pdf  used on input line 371.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
-[16
+
+Overfull \hbox (1.05684pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[14
 
 <./plots/junction.png>]
-<plots/pre_m_s.png, id=130, 245.41687pt x 123.46124pt>
+<plots/ge.png, id=116, 376.40625pt x 218.31563pt>
+File: plots/ge.png Graphic file (type png)
+<use plots/ge.png>
+Package luatex.def Info: plots/ge.png  used on input line 387.
+(luatex.def)             Requested size: 204.11534pt x 118.38835pt.
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 387.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+
+Overfull \hbox (1.05684pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[15
+
+<./plots/ge.png>]
+<plots/pre_m_s.png, id=123, 245.41687pt x 123.46124pt>
 File: plots/pre_m_s.png Graphic file (type png)
 <use plots/pre_m_s.png>
-Package luatex.def Info: plots/pre_m_s.png  used on input line 408.
+Package luatex.def Info: plots/pre_m_s.png  used on input line 403.
 (luatex.def)             Requested size: 142.88011pt x 71.8807pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 408.
+Package luatex.def Info: logos/tu.pdf  used on input line 403.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
- [17
+
+Overfull \hbox (1.05684pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[16
 
 <./plots/pre_m_s.png>]
-<plots/post_m_s.png, id=137, 240.14719pt x 154.32657pt>
+<plots/post_m_s.png, id=130, 240.14719pt x 154.32657pt>
 File: plots/post_m_s.png Graphic file (type png)
 <use plots/post_m_s.png>
-Package luatex.def Info: plots/post_m_s.png  used on input line 423.
+Package luatex.def Info: plots/post_m_s.png  used on input line 418.
 (luatex.def)             Requested size: 142.88011pt x 91.81955pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 423.
+Package luatex.def Info: logos/tu.pdf  used on input line 418.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
- [18
+
+Overfull \hbox (1.05684pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[17
 
 <./plots/post_m_s.png>]
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 432.
+Package luatex.def Info: logos/tu.pdf  used on input line 427.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+
+Overfull \hbox (1.05684pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[18
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 435.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+
+Overfull \hbox (1.05684pt too wide) has occurred while \output is active
+ [][]  
+ []
+
 [19
 
 ]
-File: logos/tu.pdf Graphic file (type pdf)
-<use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 449.
-(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
- [20
+<plots/full_spec.png, id=147, 318.43968pt x 180.675pt>
+File: plots/full_spec.png Graphic file (type png)
+<use plots/full_spec.png>
+Package luatex.def Info: plots/full_spec.png  used on input line 442.
+(luatex.def)             Requested size: 340.19655pt x 193.01982pt.
 
-]
-File: logos/tu.pdf Graphic file (type pdf)
-<use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 471.
-(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
- [21
-
-]
-<plots/nuclid_table1.png, id=160, 600.74437pt x 374.90062pt>
-File: plots/nuclid_table1.png Graphic file (type png)
-<use plots/nuclid_table1.png>
-Package luatex.def Info: plots/nuclid_table1.png  used on input line 475.
-(luatex.def)             Requested size: 340.19655pt x 212.3112pt.
-
-Overfull \vbox (10.12817pt too high) detected at line 475
+Overfull \vbox (35.74258pt too high) detected at line 442
  []
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 475.
+Package luatex.def Info: logos/tu.pdf  used on input line 442.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
-[22
 
-<./plots/nuclid_table1.png>]
+Overfull \hbox (1.05684pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[20
+
+<./plots/full_spec.png>]
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 481.
+Package luatex.def Info: logos/tu.pdf  used on input line 464.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
- [23
+
+Overfull \hbox (1.05684pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[21
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 473.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+
+Overfull \hbox (1.05684pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[22
 
 ]
 LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
-(Font)              scaled to size 7.58249pt on input line 488.
+(Font)              scaled to size 10.11017pt on input line 480.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `FiraMono' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 488.
+Package luatex.def Info: logos/tu.pdf  used on input line 480.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
- [24
+
+Overfull \hbox (1.05684pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[23
 
 ]
-<plots/attenuation_edges.png, id=184, 268.75406pt x 298.11375pt>
+<plots/attenuation_edges.png, id=177, 268.75406pt x 298.11375pt>
 File: plots/attenuation_edges.png Graphic file (type png)
 <use plots/attenuation_edges.png>
-Package luatex.def Info: plots/attenuation_edges.png  used on input line 502.
+Package luatex.def Info: plots/attenuation_edges.png  used on input line 494.
 (luatex.def)             Requested size: 153.0874pt x 169.81288pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 502.
+Package luatex.def Info: logos/tu.pdf  used on input line 494.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
- [25
+
+Overfull \hbox (1.05684pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[24
 
 <./plots/attenuation_edges.png>]
 \tf@nav=\write6
@@ -3404,33 +3507,28 @@ braces):
 >  {english/babelname}  =>  {american}
 >  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}.
-
-(./build/example.aux
+ (./build/example.aux
 LaTeX Info: Redefining \rmfamily on input line 22.
 LaTeX Info: Redefining \sffamily on input line 22.
 LaTeX Info: Redefining \ttfamily on input line 22.
 )
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.48pt have occurred.
-
 Package logreq Info: Writing requests to 'example.run.xml'.
 
 \openout1 = example.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 73854 strings out of 477811
+ 73843 strings out of 477811
  125016,3417909 words of node,token memory allocated
- 3507 words of node memory still in use:
-   53 hlist, 11 vlist, 6 rule, 15 disc, 10 local_par, 4 math, 86 glue, 26 kern, 
-27 penalty, 2 margin_kern, 102 glyph, 118 attribute, 77 glue_spec, 118 attribute
+ 3537 words of node memory still in use:
+   54 hlist, 11 vlist, 6 rule, 15 disc, 10 local_par, 4 math, 87 glue, 26 kern, 
+28 penalty, 3 margin_kern, 103 glyph, 118 attribute, 77 glue_spec, 118 attribute
 _list, 4 write, 24 pdf_literal, 16 pdf_colorstack, 2 pdf_setmatrix, 2 pdf_save, 
 2 pdf_restore nodes
-   avail lists: 1:10,2:454,3:244,4:246,5:396,6:52,7:2818,8:63,9:448,10:15,11:309
+   avail lists: 1:10,2:454,3:249,4:244,5:363,6:52,7:2147,8:63,9:450,10:15,11:246
 
- 91908 multiletter control sequences out of 65536+600000
- 154 fonts using 46552579 bytes
+ 91911 multiletter control sequences out of 65536+600000
+ 154 fonts using 46552455 bytes
  128i,18n,144p,1003b,2454s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/nils/.local/texlive/2021/texmf-dist/fonts/opentype/public/fira/FiraMono-R
 egular.otf></home/nils/.local/texlive/2021/texmf-dist/fonts/opentype/public/fira
@@ -3440,13 +3538,13 @@ ist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}</home/nils/.local/texlive/2021/texmf
 -dist/fonts/opentype/public/firamath/FiraMath-Regular.otf></home/nils/.local/tex
 live/2021/texmf-dist/fonts/opentype/public/fira/FiraSans-Medium.otf></home/nils/
 .local/texlive/2021/texmf-dist/fonts/opentype/public/fira/FiraSans-Light.otf></h
-ome/nils/.local/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol9.pf
-b></home/nils/.local/texlive/2021/texmf-dist/fonts/type1/public/wasy-type1/wasy9
-.pfb>
-Output written on example.pdf (25 pages, 454453 bytes).
+ome/nils/.local/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol12.p
+fb></home/nils/.local/texlive/2021/texmf-dist/fonts/type1/public/wasy-type1/wasy
+10.pfb>
+Output written on example.pdf (24 pages, 409443 bytes).
 
-PDF statistics: 244 PDF objects out of 1000 (max. 8388607)
- 153 compressed objects within 2 object streams
- 51 named destinations out of 1000 (max. 131072)
+PDF statistics: 237 PDF objects out of 1000 (max. 8388607)
+ 149 compressed objects within 2 object streams
+ 49 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 

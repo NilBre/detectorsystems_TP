@@ -1,7 +1,7 @@
 % This example is meant to be compiled with lualatex or xelatex
 % The theme itself also supports pdflatex
 \PassOptionsToPackage{unicode}{hyperref}
-\documentclass[aspectratio=1610, 9pt]{beamer}
+\documentclass[aspectratio=1610, 12pt]{beamer}
 
 % Warning, if another latex run is needed
 % \usepackage[aux]{rerunfilecheck}
@@ -178,7 +178,7 @@
   \end{itemize}
 \end{frame}
 
-\begin{frame}\frametitle{WInteraction of $\gamma$-rays with matter}
+\begin{frame}\frametitle{Interaction of $\gamma$-rays with matter}
   \begin{columns}
     \begin{column}[c]{0.48\textwidth}
       \begin{figure}
@@ -201,7 +201,7 @@
   \begin{columns}
     \begin{column}[c]{0.48\textwidth}
       \begin{figure}
-        \includegraphics[width=\textwidth]{plots/photo_abs.png}
+        \includegraphics[width=0.9\textwidth]{plots/photo_abs.png}
         \caption{photo peak}
       \end{figure}
     \end{column}
@@ -272,13 +272,6 @@
   \end{columns}
 \end{frame}
 
-\begin{frame}\frametitle{Energy spectra}
-  \begin{figure}
-    \includegraphics[width=0.9\textwidth]{plots/full_spec.png}
-    \caption{Full spectrum of Cs-137 source}
-  \end{figure}
-\end{frame}
-
 \begin{frame}\frametitle{Band structure}
   \begin{columns}
     \begin{column}[c]{0.48\textwidth}
@@ -332,7 +325,7 @@
 \end{frame}
 
 \begin{frame}\frametitle{resolution and suitable semiconductors}
-resolution $\propto$ n -> detector needs specific properties
+resolution $\propto$ number of pairs produced
   \begin{itemize}
     \item large absorption coefficient (high atomic number Z)
     \item low $\epsilon$: to produce many electron-hole pairs
@@ -351,47 +344,49 @@ resolution $\propto$ n -> detector needs specific properties
       \begin{itemize}
         \item Silicon: highly pure, low-priced, low atomic number (low energy photons)
         \item Germanium: higher Z -> good for higher energy gamma radiation
-        \item improvements reduced resolution to $\approx$ 1.8 keV
         \item low temperature -> reduce leakage current
+        \item improvements reduced resolution to $\approx$ 1.8 keV
       \end{itemize}
     \end{column}
   \end{columns}
 \end{frame}
 
-\begin{frame}\frametitle{Why Germanium as detector material?}
-  \begin{columns}
-    \begin{column}[c]{0.48\textwidth}
-      \includegraphics[width=\textwidth]{plots/ge.png}
-    \end{column}
-    \begin{column}[c]{0.48\textwidth}
-      \begin{itemize}
-        \item
-      \end{itemize}
-    \end{column}
-  \end{columns}
-\end{frame}
-
-\begin{frame}\frametitle{Semiconductor detector}
+\begin{frame}\frametitle{Semiconductor detector (Germanium)}
   \begin{columns}
     \begin{column}[c]{0.48\textwidth}
       \includegraphics[width=\textwidth]{plots/junction.png}
     \end{column}
     \begin{column}[c]{0.48\textwidth}
       \begin{itemize}
-        \item p-n or M-S junctions possible
-        \item electrodes form a metal-semiconductor junction
-        \item impurities: p-type (acceptor states), n-type (donator states)
-        \item solid detection material for full energy deposition inside
-        \item doping: adding energy states -> narrowing the band gap
-        % \item electrical properties needed for electron-hole pairs to electric signal
+        \item p-type, n-type germanium (3 and 5 valent impurities)
+        \item electrons and holes recombine by diffusion -> depletion zone
+        \item -> only local donator and acceptor hulls remain
+        \item goal: seperation via external field inside depletion zone
         \item maximising the depletion zone -> hinder recombination -> reconstruct energy of the event
-        \item probability of thermal excitation: $p(T) = T^{3/2} exp(-E_g / 2 k_b T)$
+        \item probability of thermal excitation: $p(T) = T^{3/2} exp(-E_g / 2 k_b T)$ (background)
+        \item p-n or M-S junctions possible
       \end{itemize}
     \end{column}
   \end{columns}
 \end{frame}
 
-\begin{frame}\frametitle{Metal-Semiconductor junction}
+\begin{frame}\frametitle{The Ge-detector}
+  \begin{columns}
+    \begin{column}[c]{0.48\textwidth}
+      \includegraphics[width=\textwidth]{plots/ge.png}
+    \end{column}
+    \begin{column}[c]{0.48\textwidth}
+      \begin{itemize}
+        \item Aluminium casing as VETO region (40 - 50 keV)
+        \item Lithium doped outside: connecting rreverse voltage
+        \item inside steamed with gold (M-S junction)
+        \item electronic signal: spectrum-histogram from Multichannel analyzer (MCA)
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Metal-Semiconductor junction (n-Si)}
   \begin{columns}
     \begin{column}[c]{0.48\textwidth}
       \includegraphics[width=0.7\textwidth]{plots/pre_m_s.png}
@@ -425,30 +420,28 @@ resolution $\propto$ n -> detector needs specific properties
 \begin{frame}\frametitle{Why is this junction used over p-n?}
   \begin{itemize}
     \item Si-Schottky diodes are substantially faster changing from forward bias to reverse bias
-    \item -> switching action: 10 - 100 GHz possible because no "holes" in metal
+    \item -> switching action: 10 - 100 GHz possible because no moving "holes" in metal
     \item low forward voltage drop (0.15 - 0.45V) p-n: 0.6 - 0.75 V
     \item But: higher reverse leakage current
   \end{itemize}
 \end{frame}
 
-\begin{frame}\frametitle{How to semiconductor}
+\begin{frame}\frametitle{Separation efficiency}
   \begin{itemize}
-    \item p and n doped areas
-    \item charge carriers diffuse and recombinate
-    \item surface is charge carrier poor zone
-    \item acceptor in p, donator in n. electric field hinders carriers
-    \item the bigger the zone the better the seperation -> more $U_g$
-    \item seperation before recombination \to pulse \to quatification of energy
-    \item only possible if generated in depletion zone (charge carrier poor zone)
-    \item depletion zone big -> reverse voltage and doping material
-    \item asymmetric doping (equation)
-    \item noise: electrons randomly passing reverse voltage, also cool detector
-    \item veto region with alu case ($E_{min} = 40 - 50$ keV)
-    \item Li in Ge for n, Au in Ge for p
+    \item minimal distance of 2 signals to register both
+    \item Full Width at Half Maximum $\Delta E_{1/2} \approx 2.35 \sqrt{F E_\gamma \epsilon}$
+    \item Fano factor of germanium $F = 0.1$
   \end{itemize}
 \end{frame}
 
-\begin{frame}\frametitle{Evaluation of gamma spec}
+\begin{frame}\frametitle{Energy spectra}
+  \begin{figure}
+    \includegraphics[width=0.8\textwidth]{plots/full_spec.png}
+    \caption{Full spectrum of Cs-137 source}
+  \end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{Evaluation of gamma spectroscopy}
   \begin{columns}
     \begin{column}[c]{0.48\textwidth}
       PRO:
@@ -470,13 +463,12 @@ resolution $\propto$ n -> detector needs specific properties
   \end{columns}
 \end{frame}
 
-\begin{frame}\frametitle{Table of interesting radio nuclides}
-  \includegraphics[width=0.8\textwidth]{plots/nuclid_table1.png}
-\end{frame}
-
-\begin{frame}\frametitle{Summary}
+\begin{frame}\frametitle{Applications}
   \begin{itemize}
-    \item
+    \item medial application: positron emission tomography (tumor therapy)
+    \item -> positron-emitting pharmaceutical injection near tumor -> imaging through 511 keV lines
+    \item security scans for explosives
+    \item monitoring nuclear waste
   \end{itemize}
 \end{frame}
 

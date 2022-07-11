@@ -45,10 +45,11 @@
   \setmonofont{Fira Mono}[Scale=MatchLowercase]
   \setmathfont{Fira Math}[Scale=MatchLowercase]
 \else
-  \usepackage{FiraSans} 
+  \usepackage{FiraSans}
 \fi
 
 \setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{itemize items}[default]
 
 
 %% headline
@@ -96,7 +97,7 @@
       dp=10pt,
       leftskip=\beamer@leftmargin,
     ]{author in head/foot}%
-      {\usebeamerfont{author in head/foot}\insertshortauthor} | 
+      {\usebeamerfont{author in head/foot}\insertshortauthor} |
       {\usebeamerfont{date in head/foot}\insertshortdate}%
     \end{beamercolorbox}%
     \begin{beamercolorbox}[
