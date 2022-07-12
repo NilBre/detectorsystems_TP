@@ -1382,6 +1382,10 @@ INPUT /home/nils/.local/texlive/2021/texmf-var/luatex-cache/generic/names/luaotf
 OUTPUT /home/nils/.local/texlive/2021/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.lua
 INPUT /home/nils/.local/texlive/2021/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.lua
 OUTPUT /home/nils/.local/texlive/2021/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc
+INPUT /home/nils/.local/texlive/2021/texmf-dist/tex/latex/microtype/mt-msa.cfg
+INPUT /home/nils/.local/texlive/2021/texmf-dist/tex/latex/microtype/mt-msa.cfg
+INPUT /home/nils/.local/texlive/2021/texmf-dist/tex/latex/microtype/mt-msb.cfg
+INPUT /home/nils/.local/texlive/2021/texmf-dist/tex/latex/microtype/mt-msb.cfg
 INPUT ./logos/tu.pdf
 INPUT ./logos/tu.pdf
 INPUT ./plots/z_depend.png
@@ -1392,10 +1396,6 @@ INPUT /home/nils/.local/texlive/2021/texmf-var/luatex-cache/generic/names/luaotf
 OUTPUT /home/nils/.local/texlive/2021/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.lua
 INPUT /home/nils/.local/texlive/2021/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.lua
 OUTPUT /home/nils/.local/texlive/2021/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc
-INPUT /home/nils/.local/texlive/2021/texmf-dist/tex/latex/microtype/mt-msa.cfg
-INPUT /home/nils/.local/texlive/2021/texmf-dist/tex/latex/microtype/mt-msa.cfg
-INPUT /home/nils/.local/texlive/2021/texmf-dist/tex/latex/microtype/mt-msb.cfg
-INPUT /home/nils/.local/texlive/2021/texmf-dist/tex/latex/microtype/mt-msb.cfg
 INPUT /home/nils/.local/texlive/2021/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.lua
 INPUT /home/nils/.local/texlive/2021/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc
 OUTPUT /home/nils/.local/texlive/2021/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.lua
@@ -1542,6 +1542,8 @@ INPUT ./logos/tu.pdf
 INPUT ./plots/full_spec.png
 INPUT ./plots/full_spec.png
 INPUT ./plots/full_spec.png
+INPUT ./logos/tu.pdf
+INPUT ./logos/tu.pdf
 INPUT ./logos/tu.pdf
 INPUT ./logos/tu.pdf
 INPUT ./logos/tu.pdf
